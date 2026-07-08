@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: ar-font;
+  src: url(../fonts/Cairo-Regular.ttf);
+
+}
+
+body {
+  direction: rtl;
+  font-family: ar-font, sans-serif;
+}
+
+header video {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+header .overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+header .overlay .brand {
+  padding-top: 43px;
+  transform: translateX(90px);
+}
+header .headerText {
+  margin-top: 195px;
+
+}
+header .headerText h1{
+  font-size: 40px;
+  line-height: 46px;
+  color: #555555;
+  font-family: ar-font;
+
+}
+
+
+header .headerText p {
+  font-size: 18px;
+  line-height: 33px;
+  color: #5d5d5d;
+  font-family: ar-font;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+header .headerBTN a.btn{
+  border-radius: 1px;
+  background-color: #7936b2;
+  color: #ffffff;
+  padding: 21px 55px;
+  font-size: 18px;
+  line-height: 38px;
+  margin-left: 10px;
+}
+
+
+header .headerBTN a.btn:last-child {
+  background-color: transparent;
+  color: #7936b2;
+}
+
+header .product {
+  margin-right: 220px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+header .priceLogo {
+  position: absolute;
+  top: -50px;
+  right: -80px;
+}
+
+header .priceText {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
