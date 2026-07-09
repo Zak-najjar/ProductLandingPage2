@@ -165,7 +165,7 @@ section.prices .pricePlans .planCard {
   background-color: #ffffff;
   color: #acacac;
   margin-top: 100px;
-  padding-top: 15px 0px;
+  padding-top: 15px;
 }
 
 section.prices .pricePlans .row .col-md-6:nth-child(3) .planCard {
@@ -216,3 +216,44 @@ section.prices .pricePlans .row .col-md-6:nth-child(3) .planCard a.btn {
   color: #ffffff ;
   background-color: #a044ff;
 }
+
+
+
+section.faq {
+  padding: 50px 0px 50px;
+  background-color: #ffffff;
+}
+
+
+section.faq .faqTitle h1 {
+  margin-bottom: 50px;
+}
+
+section.faq .accordion .accordion-item {
+  margin-bottom: 15px;
+  border: 1px solid #e1e1e1;
+
+}
+
+section.faq .accordion .accordion-item .accordion-header .accordion-button {
+  font-size: 18px;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border: 0;
+}
+section.faq .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+section.faq .accordion .accordion-item .accordion-body p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #c9c9c9;
+}
+section.faq .accordion .accordion-item .accordion-collapse {
+    transition: 0.3s all ease-in-out;
+
+}
+
+
