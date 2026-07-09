@@ -68,7 +68,7 @@ header .headerBTN a.btn:last-child {
 }
 
 header .product {
-  margin-right: 220px;
+  margin-right: 110px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -152,4 +152,67 @@ section.feature .featureContent .d-flex p {
   color: #555555;
   word-wrap: break-word;
   max-width: 613px;
+}
+
+section.prices {
+  padding: 50px 0px 60px;
+  background-color: #f7f7f7;
+}
+
+
+
+section.prices .pricePlans .planCard {
+  background-color: #ffffff;
+  color: #acacac;
+  margin-top: 100px;
+  padding-top: 15px 0px;
+}
+
+section.prices .pricePlans .row .col-md-6:nth-child(3) .planCard {
+  padding-top: 60px;
+  margin-top: 55px;
+}
+section.prices .pricePlans .title {
+  color: #a044ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section.prices .pricePlans  .planCard h3 {
+  font-size: 48px;
+  margin: 30px auto 40px;
+  position: relative;
+}
+section.prices .pricePlans .planCard h3 span {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+}
+section.prices .pricePlans  .planCard ul {
+  list-style: none;
+  padding: 0;
+}
+section.prices .pricePlans .planCard ul li {
+  font-size: 15px;
+  margin-bottom: 32px;
+  
+}
+
+section.prices .pricePlans .planCard a.btn {
+  border: 2px solid #a044ff;
+  background-color: #ffffff;
+  color: #a044ff;
+  padding: 13px 45px;
+  border-radius: 0px;
+  transition: 0.3s all ease-in-out;
+}
+
+section.prices .pricePlans .planCard a.btn:hover {
+  color: #ffffff ;
+  background-color: #a044ff;
+}
+
+section.prices .pricePlans .row .col-md-6:nth-child(3) .planCard a.btn {
+  color: #ffffff ;
+  background-color: #a044ff;
 }
