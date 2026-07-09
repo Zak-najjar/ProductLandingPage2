@@ -90,3 +90,66 @@ header .priceText {
   flex-direction: column;
   text-align: center;
 }
+
+section.feature {
+  background-color: #ffffff;
+  padding: 70px 0px 0px;
+}
+
+section.feature .featureText h2 {
+  font-size: 36px;
+  line-height: 33px;
+  color: #555555;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+section.feature .featureText h2::after {
+  content: "";
+  width: 145px;
+  height: 2px;
+  background-color: #6a3093;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+section.feature .featureContent .d-flex {
+  padding: 85px 0px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+
+section.feature .featureContent .d-flex img {
+  margin: 0px 80px;
+}
+section.feature .featureContent .d-flex:nth-child(even){
+  direction: ltr;
+}
+
+section.feature .featureContent .d-flex h4 {
+  font-size: 36px;
+  line-height: 33px;
+  color: #6a3093;
+  font-weight: bold;
+  padding: 5px 25px;
+  margin-bottom: 50px;
+  border-right: 3px solid #6a3093;
+}
+
+section.feature .featureContent .d-flex:nth-child(even) h4{
+  border-right: 0px;
+  border-left: 3px solid #6a3093;
+
+}
+
+
+section.feature .featureContent .d-flex p {
+  font-size: 18px;
+  line-height: 33px;
+  color: #555555;
+  word-wrap: break-word;
+  max-width: 613px;
+}
