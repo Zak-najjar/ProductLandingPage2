@@ -8,17 +8,15 @@
   src: url(../fonts/Cairo-Regular.ttf);
 
 }
-
 body {
   direction: rtl;
   font-family: ar-font, sans-serif;
 }
-
 header video {
   min-width: 100%;
   min-height: 100%;
-  position: fixed;
   z-index: -1;
+  position: fixed;
 }
 
 header .overlay {
@@ -27,27 +25,24 @@ header .overlay {
 
 header .overlay .brand {
   padding-top: 43px;
-  transform: translateX(90px);
 }
 header .headerText {
-  margin-top: 195px;
-
+  padding-top: 190px;
 }
 header .headerText h1{
   font-size: 40px;
+  margin-bottom: 40px;
   line-height: 46px;
   color: #555555;
   font-family: ar-font;
-
 }
 
 
 header .headerText p {
   font-size: 18px;
-  line-height: 33px;
+  line-height: 32px;
   color: #5d5d5d;
   font-family: ar-font;
-  margin-top: 38px;
   margin-bottom: 50px;
 }
 
@@ -222,6 +217,7 @@ section.prices .pricePlans .row .col-md-6:nth-child(3) .planCard a.btn {
 section.faq {
   padding: 50px 0px 50px;
   background-color: #ffffff;
+  min-height: 520px;
 }
 
 
@@ -257,3 +253,119 @@ section.faq .accordion .accordion-item .accordion-collapse {
 }
 
 
+section.video {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+section.video video {
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.video .overlay {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(126, 75, 171, 0.9);
+}
+
+section.video .overlay button {
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  color: #ffffff;
+  font-size: 30px;
+
+}
+
+
+section.video .overlay button i{
+  display: block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0px auto 45px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+
+
+section.contact {
+  padding: 60px 0px 50px;
+  background-color: #131313;
+}
+section.contact h4 {
+  font-size: 18px;
+  line-height: 48px;
+  color: #758594;
+  
+}
+
+section.contact form input, section.contact form textarea {
+  font-size: 18px;
+  line-height: 35px;
+  text-align: right;
+  background-color: #3f3f3f;
+  margin-bottom: 10px;
+  border: 0px;
+  border-radius: 0;
+  width: 90%;
+  color: #aeadad;
+}
+
+section.contact form button {
+  border-radius: 2px;
+  background-color: #a044ff;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+
+section.contact input::placeholder,section.contact form textarea::placeholder {
+  color: #aeadad;
+
+}
+section.contact form input:focus, section.contact form textarea:focus {
+  background-color: #3f3f3f;
+  color: #aeadad;
+  box-shadow: none;
+}
+
+
+section.contact form .invalid-feedback {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+
+section.contact .blogs a.blogItem {
+  text-decoration: none;
+}
+
+
+section.contact .blogs .d-flex {
+  margin-bottom: 25px;
+}
+
+section.contact .blogs .d-flex h5 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #aeadad;
+}
+
+section.contact .blogs .d-flex p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #737373;
+
+}

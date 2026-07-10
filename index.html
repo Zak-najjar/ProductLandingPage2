@@ -23,7 +23,7 @@
           </a>
         </div>
         <div class="row ">
-          <div class="col-md-7">
+          <div class="col-xl-7">
             <div class="headerText">
               <h1>تابلت - 9.7 إنش, 16 جيجابايت الجيل الرابع اللون أسود</h1>
               <p>
@@ -35,8 +35,8 @@
               <a href="#" class="btn">مميزات المنتج</a>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="product">
+          <div class="col-xl-5 ">
+            <div class="product d-none d-xl-block">
               <div class="productImg">
                 <img src="./imgs/product.png" alt="product">
               </div>
@@ -289,6 +289,68 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <video src="./vids/video.mp4" id="video"></video>
+        <div class="overlay">
+          <button onclick="playVid()">
+            <i class="fa-solid fa-video"></i>
+            مشاهدة الفيديو
+          </button>
+        </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>
+              تواصل معنا
+            </h4>
+            <form action="" class="needs-validation" novalidate>
+              <input type="text" class="form-control" placeholder="الاسم" required>
+              <div class="invalid-feedback">
+                يرجى ادخال الاسم
+              </div>
+              <input type="email" class="form-control" placeholder="البريد الالكتروني" required>
+              <div class="invalid-feedback">
+                يرجى ادخال البريد الالكرتوني 
+              </div>
+              <textarea class="form-control" placeholder="الرسالة" required></textarea>
+              <div class="invalid-feedback">
+                يجب ملئ النموذج.
+              </div>
+              <button type="submit">ارسال <i class="fa-solid fa-angles-left"></i></button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h4>المنتجات الأكثر مشاهدة</h4>
+            <div class="blogs">
+              <a href="" class="blogItem">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img src="./imgs/blog-1.png" alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <h5>شفرة متعددة الاغراض</h5>
+                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء</p>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="blogItem">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img src="./imgs/blog-2.png" alt="...">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <h5>باور بنك 3000أمبير</h5>
+                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
