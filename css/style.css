@@ -369,3 +369,33 @@ section.contact .blogs .d-flex p {
   color: #737373;
 
 }
+
+
+footer {
+  background-color: #1d1d1d;
+  padding: 25px 0px;
+}
+
+footer .list-inline .list-inline-item a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  color: #1d1d1d;
+  background-color: #758594;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.3s all ease;
+}
+
+footer .list-inline .list-inline-item a:hover {
+  background-color: #1479ec;
+}
+
+
+footer .copyRight {
+  font-size: 15px;
+  line-height: 22px;
+  color: #919191;
+  text-align: center;
+}
