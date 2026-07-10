@@ -8,6 +8,9 @@
   src: url(../fonts/Cairo-Regular.ttf);
 
 }
+html {
+scroll-behavior: smooth !important;
+}
 body {
   direction: rtl;
   font-family: ar-font, sans-serif;
@@ -27,7 +30,7 @@ header .overlay .brand {
   padding-top: 43px;
 }
 header .headerText {
-  padding-top: 190px;
+  padding-top: 100px;
 }
 header .headerText h1{
   font-size: 40px;
@@ -45,7 +48,6 @@ header .headerText p {
   font-family: ar-font;
   margin-bottom: 50px;
 }
-
 header .headerBTN a.btn{
   border-radius: 1px;
   background-color: #7936b2;
@@ -54,6 +56,7 @@ header .headerBTN a.btn{
   font-size: 18px;
   line-height: 38px;
   margin-left: 10px;
+  transition: 0.3s all ease;
 }
 
 
@@ -63,11 +66,12 @@ header .headerBTN a.btn:last-child {
 }
 
 header .product {
-  margin-right: 110px;
   margin-bottom: 30px;
   position: relative;
 }
-
+header .product img {
+  width: 100%;
+}
 header .priceLogo {
   position: absolute;
   top: -50px;
@@ -398,4 +402,45 @@ footer .copyRight {
   line-height: 22px;
   color: #919191;
   text-align: center;
+}
+
+
+
+@media (max-width:992px) {
+  header .headerText {
+    padding-top: 90px;
+  }
+}
+
+
+
+@media (max-width:776px) {
+  header .product {
+    margin-top: 100px;
+  }
+  header .product .priceLogo {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+section.feature .featureContent .d-flex {
+  flex-flow: column;
+  text-align: center;
+  }
+
+
+  section.feature .featureContent .d-flex h4 {
+    margin: 50px auto;
+    border: none !important;
+  }
+
+  section.contact h4 {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width:576px) {
+  footer{
+    text-align: center;
+  }
 }

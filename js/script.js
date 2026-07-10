@@ -34,3 +34,6 @@ function playVid(){
 
 
 document.getElementById("fullYear").innerHTML=new Date().getFullYear();
+
+
+
